@@ -1,0 +1,24 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+h1 {
+    color: #ffffff;
+}
+a {
+    color: #bbbbff;
+}
+footer {
+    color: #ffffff;
+}
+.rotated-img {
+    animation: rotation 20s infinite linear;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(359deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
