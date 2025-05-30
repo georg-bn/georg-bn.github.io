@@ -1,18 +1,27 @@
 body {
-    background-color: #000000;
+    background-color: #12121c;
     color: #ffffff;
 }
 h1 {
     color: #ffffff;
 }
 a {
-    color: #bbbbff;
+    color: #c0c0ff;
 }
 footer {
     color: #ffffff;
 }
+p {
+  max-width: 80ch;
+  white-space: wrap;
+}
+hr {
+  max-width: 80ch;
+  margin-left: 0;
+}
 .rotated-img {
-    animation: rotation 20s infinite linear;
+    animation: rotation 10s infinite linear;
+    width: 30ch;
 }
 @keyframes rotation {
     from {
