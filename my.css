@@ -4,6 +4,7 @@ body {
 }
 h1 {
     color: #ffffff;
+    font-size: large;
 }
 a {
     color: #c0c0ff;
@@ -12,12 +13,14 @@ footer {
     color: #ffffff;
 }
 p {
-  max-width: 80ch;
-  white-space: wrap;
+    margin-left: 4ch;
+    max-width: 76ch;
+    white-space: wrap;
 }
 hr {
-  max-width: 80ch;
-  margin-left: 0;
+    color: #707090;
+    max-width: 80ch;
+    margin-left: 0;
 }
 .rotated-img {
     animation: rotation 10s infinite linear;
@@ -25,9 +28,9 @@ hr {
 }
 @keyframes rotation {
     from {
-        transform: rotate(359deg);
+        transform: rotate(560deg);
     }
     to {
-        transform: rotate(0deg);
+        transform: rotate(200deg);
     }
 }
