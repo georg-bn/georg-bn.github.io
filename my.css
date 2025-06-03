@@ -9,24 +9,32 @@ h1 {
 a {
     color: #c0c0ff;
 }
+header {
+    color: #ffffff;
+    width: 40rem;
+    max-width: 40rem;
+}
 footer {
     color: #ffffff;
+    width: 40rem;
+    max-width: 40rem;
 }
 p {
-    margin-left: 3ch;
-    margin-right: 3ch;
-    max-width: 74ch;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 36rem;
+    max-width: 36rem;
     white-space: wrap;
 }
 hr {
     color: #707090;
-    width: 80ch;
-    max-width: 80ch;
+    width: 40rem;
+    max-width: 40rem;
     margin-left: 0;
 }
 .rotated-img {
     animation: rotation 10s infinite linear;
-    width: 30ch;
+    width: 15rem;
 }
 @keyframes rotation {
     from {
