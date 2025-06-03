@@ -14,7 +14,8 @@ footer {
 }
 p {
     margin-left: 4ch;
-    max-width: 76ch;
+    margin-right: 4ch;
+    max-width: 72ch;
     white-space: wrap;
 }
 hr {
