@@ -13,13 +13,14 @@ footer {
     color: #ffffff;
 }
 p {
-    margin-left: 4ch;
-    margin-right: 4ch;
-    max-width: 72ch;
+    margin-left: 3ch;
+    margin-right: 3ch;
+    max-width: 74ch;
     white-space: wrap;
 }
 hr {
     color: #707090;
+    width: 80ch;
     max-width: 80ch;
     margin-left: 0;
 }
