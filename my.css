@@ -1,5 +1,5 @@
 body, h1, p, a, i, b, span, nav, header, section {
-    font-family: "EB Garamond", Garamond, "Apple Garamond", Georgia, serif;
+    font-family: "Libre Caslon Text", "Adobe Caslon Pro", "Big Caslon", Georgia, serif;
 }
 body {
     background-color: #08081a;
@@ -10,19 +10,17 @@ body {
 }
 main {
     width: 100%;
-    max-width: 40rem;
+    max-width: 44rem;
     margin: 2rem auto;
 }
 h1 {
     color: #ffffff;
     font-size: 1.2rem;
-    font-weight: 500;
-    font-style: italic;
-    text-decoration: underline;
+    font-weight: 400;
     text-align: center;
 }
 b, strong {
-    font-weight: 500;
+    font-weight: 700;
 }
 a {
     color: #c0c0ff;
@@ -30,19 +28,19 @@ a {
 header {
     color: #ffffff;
     width: 100%;
-    max-width: 40rem;
+    max-width: 44rem;
     text-align: center;
 }
 footer {
     color: #ffffff;
     width: 100%;
-    max-width: 40rem;
+    max-width: 44rem;
     text-align: center;
 }
 p {
-    margin-left: 2rem;
-    margin-right: 2rem;
-    max-width: 36rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    max-width: 41rem;
     white-space: wrap;
 }
 .authors {
@@ -51,7 +49,7 @@ p {
 hr {
     color: #707090;
     width: 100%;
-    max-width: 40rem;
+    max-width: 44rem;
     margin-left: 0;
 }
 .rotated-img {
